@@ -22,12 +22,14 @@ You must run 'rabbitmq-plugins enable rabbitmq_management' cmd command in 'C:\Pr
 ![enter image description here](https://i.ibb.co/HPF5Spc/cmd.png)
 
 .
+
 Open your browser, go to http://localhost:15672/ url, login with default 'guest' username and password.
 
 
 ![enter image description here](https://i.ibb.co/JsGWzSZ/loginpage.png)
 
 .
+
 You can see RabbitMQ server management page now.
 
 
@@ -44,6 +46,7 @@ You can use RabbitMQ on cloud with free account. For this go to 'https://www.clo
 
 
 .
+
 You can use your cloud instance with AMQP URL.
 
 ![enter image description here](https://i.ibb.co/v482SYH/clouddetail.png)
