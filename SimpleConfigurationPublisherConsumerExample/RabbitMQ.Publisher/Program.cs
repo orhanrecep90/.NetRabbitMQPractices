@@ -11,6 +11,8 @@ namespace RabbitMQ.Publisher
             int count = int.Parse(args[1]);
             var factory = new ConnectionFactory();
             factory.Uri = new Uri("your amqp url");
+            
+            //for local RabbitMQ installation;
             //factory.HostName = "localhost";
 
             using (var connection=factory.CreateConnection())
