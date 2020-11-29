@@ -13,6 +13,8 @@ namespace RabbitMQ.Consumer
             int time = int.Parse(args[0].ToString());
             var factory = new ConnectionFactory();
             factory.Uri = new Uri("your amqp url");
+            
+            //for local RabbitMQ installation;
             //factory.HostName = "localhost";
 
             using (var connection = factory.CreateConnection())
