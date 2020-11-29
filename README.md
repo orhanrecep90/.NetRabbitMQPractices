@@ -40,6 +40,7 @@ You can see RabbitMQ server management page now.
 You can use RabbitMQ on cloud with free account. For this go to 'https://www.cloudamqp.com/' adress and sign up or login with your google or github account. Then click create new instance and setup instance in four step.
 
 
+
 ![enter image description here](https://i.ibb.co/ZMWfGhj/cloud-Create.png)
 
 
@@ -55,3 +56,5 @@ Download repository and change url according to your setup.
 In the Solution Explorer, right click the consumer project and click Open in Terminal. Do this three times and write opened windows respectively "dotnet run 300", "dotnet run 700" and "dotnet run 1500". You ran the three consumer application what have different configuration times. They are listening to queue for new messages. Go to the solution Explorer and click the publisher project and click Open in Terminal. Write "dotnet run work 30" this time. You can see published messages and consumed messages in power shell screens.
 
 ![enter image description here](https://miro.medium.com/max/1250/1*4Kt0rkJz6pU6eDLtRt6bsA.gif)
+
+Also You can do this for other my practices.
