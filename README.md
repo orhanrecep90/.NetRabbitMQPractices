@@ -1,4 +1,4 @@
-# RabbitMQ Practices with .Net
+# RabbitMQ Practices with .Net Core
 
 Hi everyone. I worked with message broker RabbitMQ in this repository. I made examples step by step from simple to difficult. 
 
@@ -22,14 +22,12 @@ You must run 'rabbitmq-plugins enable rabbitmq_management' cmd command in 'C:\Pr
 ![enter image description here](https://i.ibb.co/HPF5Spc/cmd.png)
 
 .
-
 Open your browser, go to http://localhost:15672/ url, login with default 'guest' username and password.
 
 
 ![enter image description here](https://i.ibb.co/JsGWzSZ/loginpage.png)
 
 .
-
 You can see RabbitMQ server management page now.
 
 
@@ -46,7 +44,6 @@ You can use RabbitMQ on cloud with free account. For this go to 'https://www.clo
 
 
 .
-
 You can use your cloud instance with AMQP URL.
 
 ![enter image description here](https://i.ibb.co/v482SYH/clouddetail.png)
@@ -54,4 +51,7 @@ You can use your cloud instance with AMQP URL.
 
 
 ### 2. Download Repository
-Download repository, change url according to your setup and debug projects.
+Download repository and change url according to your setup.
+In the Solution Explorer, right click the consumer project and click Open in Terminal. Do this three times and write opened windows respectively "dotnet run 300", "dotnet run 700" and "dotnet run 1500". You ran the three consumer application what have different configuration times. They are listening to queue for new messages. Go to the solution Explorer and click the publisher project and click Open in Terminal. Write "dotnet run work 30" this time. You can see published messages and consumed messages in power shell screens.
+
+![enter image description here](https://miro.medium.com/max/1250/1*4Kt0rkJz6pU6eDLtRt6bsA.gif)
